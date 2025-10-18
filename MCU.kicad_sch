@@ -2470,7 +2470,7 @@
 	)
 	(rectangle
 		(start 123.19 34.29)
-		(end 144.78 67.31)
+		(end 146.05 67.31)
 		(stroke
 			(width 0)
 			(type default)
@@ -2518,7 +2518,7 @@
 	)
 	(rectangle
 		(start 121.92 17.78)
-		(end 146.05 83.82)
+		(end 147.32 83.82)
 		(stroke
 			(width 0)
 			(type default)
@@ -4123,7 +4123,7 @@
 		)
 		(uuid "845a592e-f6f2-4c2c-91c9-c60ebc667349")
 	)
-	(hierarchical_label "Lim_Mode"
+	(hierarchical_label "Limit_Mode"
 		(shape input)
 		(at 133.35 64.77 0)
 		(effects

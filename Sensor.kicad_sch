@@ -1909,7 +1909,7 @@
 		)
 		(uuid "de84ddfe-593c-4c22-b4d1-8b718e143058")
 	)
-	(hierarchical_label "Lim_Mode"
+	(hierarchical_label "Limit_Mode"
 		(shape input)
 		(at 165.1 49.53 0)
 		(effects

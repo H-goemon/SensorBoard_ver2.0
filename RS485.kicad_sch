@@ -1157,6 +1157,18 @@
 		)
 	)
 	(rectangle
+		(start 135.89 19.05)
+		(end 153.67 30.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0bab7909-cac6-4408-9ff7-2756846c8327)
+	)
+	(rectangle
 		(start 15.24 19.05)
 		(end 134.62 66.04)
 		(stroke
@@ -1167,6 +1179,19 @@
 			(type none)
 		)
 		(uuid c1db43a7-14cb-4195-9bc3-6d7b100919e6)
+	)
+	(text "RS485_Flag"
+		(exclude_from_sim no)
+		(at 135.89 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "5ade7bfb-90a4-40e5-ad8d-515a64b024c0")
 	)
 	(text "RS485_Unit"
 		(exclude_from_sim no)
@@ -1209,6 +1234,16 @@
 			(type default)
 		)
 		(uuid "0970101b-2fcb-4437-a265-c63973e21d2a")
+	)
+	(wire
+		(pts
+			(xy 137.16 25.4) (xy 144.78 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d3dae39-9b66-42e5-862a-9bdf57bd2a54")
 	)
 	(wire
 		(pts
@@ -1419,6 +1454,26 @@
 			(type default)
 		)
 		(uuid "67b40b2b-8066-4740-93e7-cb771ba2cff8")
+	)
+	(wire
+		(pts
+			(xy 137.16 27.94) (xy 144.78 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69dd5cac-d29d-47db-8d5e-9ecc9928d705")
+	)
+	(wire
+		(pts
+			(xy 137.16 22.86) (xy 144.78 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da111a3-f202-47ac-9a6c-25ad7eedf528")
 	)
 	(wire
 		(pts
@@ -1690,6 +1745,16 @@
 		)
 		(uuid "711630d3-3d2f-437f-aa16-468a5959139c")
 	)
+	(label "UARTTX"
+		(at 137.16 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b175369-4a9e-4d13-899f-4fa86b2fb058")
+	)
 	(label "RS485_A"
 		(at 63.5 52.07 0)
 		(effects
@@ -1719,6 +1784,16 @@
 			(justify left bottom)
 		)
 		(uuid "a81b42bb-d201-4459-8eb3-e406f262d43a")
+	)
+	(label "URTRX"
+		(at 137.16 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbd37f04-9c13-479b-90cf-673279d98dec")
 	)
 	(label "CTRL"
 		(at 17.78 41.91 0)
@@ -1779,6 +1854,49 @@
 			(justify right bottom)
 		)
 		(uuid "c70990ae-c879-48d3-ad03-f48349362b52")
+	)
+	(label "CTRL"
+		(at 137.16 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5157be5-a6d6-46dc-a566-e0ee1021fb7f")
+	)
+	(hierarchical_label "CTRL"
+		(shape input)
+		(at 144.78 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a96b319-94ac-48ef-8eee-411e28721862")
+	)
+	(hierarchical_label "UARTRX"
+		(shape input)
+		(at 144.78 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a084457e-d85d-469f-a805-6b89988807c6")
+	)
+	(hierarchical_label "UARTTX"
+		(shape input)
+		(at 144.78 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cdb75087-9e4b-4b8b-be08-52557adc5ec0")
 	)
 	(symbol
 		(lib_id "power:GND")
