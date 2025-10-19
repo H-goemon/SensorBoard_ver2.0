@@ -613,26 +613,6 @@
     [
       "48207ddc-a67e-4dc5-8222-aef69eda58f7",
       "Root"
-    ],
-    [
-      "e4f72c70-ba83-49f1-883b-8fed6fac8041",
-      "CANUnit"
-    ],
-    [
-      "2716c537-b327-448f-a1c8-7a9a7cf93644",
-      "PowerUnit"
-    ],
-    [
-      "5f69e8d3-0be5-4d20-9aba-6345c5f5b3da",
-      "MCU_Unit"
-    ],
-    [
-      "136082db-01c6-44a3-a521-50f3992f48b0",
-      "Enc_Limit_Unit"
-    ],
-    [
-      "42e42814-996c-47bc-8c47-cd0670b676f4",
-      "RS485_Unit"
     ]
   ],
   "text_variables": {}
