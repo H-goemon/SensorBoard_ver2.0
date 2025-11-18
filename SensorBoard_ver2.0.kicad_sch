@@ -1225,155 +1225,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:FerriteBead"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at -3.81 0.635 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FerriteBead"
-				(at 3.81 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ferrite bead"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FerriteBead_0_1"
-				(polyline
-					(pts
-						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.2192)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -5274,6 +5125,12 @@
 		(uuid "fb38e529-8656-4fe5-bb20-3ab59769b235")
 	)
 	(junction
+		(at 148.59 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a313fa3-c369-42b1-b2e3-6c371466c58a")
+	)
+	(junction
 		(at 212.09 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5326,12 +5183,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c7492b1-ebed-40ab-af2d-2ff77adb563c")
-	)
-	(junction
-		(at 147.32 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9289a6ce-8219-487e-92dd-c3168596f6a4")
 	)
 	(junction
 		(at 205.74 91.44)
@@ -5534,6 +5385,16 @@
 			(type default)
 		)
 		(uuid "0a44e917-b41a-448a-9f9a-2401e263ec0a")
+	)
+	(wire
+		(pts
+			(xy 166.37 130.81) (xy 162.56 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae3430b-f7f7-4b99-a19f-62690af6ee17")
 	)
 	(wire
 		(pts
@@ -6027,6 +5888,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 123.19) (xy 162.56 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4789b4a0-c9c0-4dcc-b286-2b8f2d7e3ddb")
+	)
+	(wire
+		(pts
 			(xy 106.68 104.14) (xy 105.41 104.14)
 		)
 		(stroke
@@ -6077,7 +5948,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 35.56) (xy 203.2 36.83)
+			(xy 203.2 27.94) (xy 203.2 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6114,16 +5985,6 @@
 			(type default)
 		)
 		(uuid "535b5506-a27a-4568-b90d-6c92a13d0b63")
-	)
-	(wire
-		(pts
-			(xy 219.71 115.57) (xy 227.33 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53b308e8-1e7b-40ea-adcd-1ac3376b0571")
 	)
 	(wire
 		(pts
@@ -6287,6 +6148,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 31.75) (xy 148.59 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b66367-ecd6-4d05-bc8f-07e81ee14821")
+	)
+	(wire
+		(pts
 			(xy 163.83 63.5) (xy 172.72 63.5)
 		)
 		(stroke
@@ -6437,6 +6308,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 33.02) (xy 151.13 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7953645f-5d4e-4eda-b419-5e8b4210be1d")
+	)
+	(wire
+		(pts
 			(xy 80.01 40.64) (xy 80.01 39.37)
 		)
 		(stroke
@@ -6464,16 +6345,6 @@
 			(type default)
 		)
 		(uuid "7a12f8dd-7832-4a18-9b8d-32d91a511b55")
-	)
-	(wire
-		(pts
-			(xy 151.13 27.94) (xy 151.13 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a9c66fc-746c-434c-bc43-be24e16f6a7d")
 	)
 	(wire
 		(pts
@@ -6827,7 +6698,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 30.48) (xy 147.32 31.75)
+			(xy 148.59 30.48) (xy 148.59 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6874,6 +6745,16 @@
 			(type default)
 		)
 		(uuid "a1d7f5a2-edcb-4a68-8f37-d99761f15a94")
+	)
+	(wire
+		(pts
+			(xy 162.56 130.81) (xy 162.56 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2be7b41-047f-46e6-a410-6520a648e1a7")
 	)
 	(wire
 		(pts
@@ -7047,6 +6928,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 123.19) (xy 162.56 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a03afd-1f82-43bc-813c-6d0c129aba20")
+	)
+	(wire
+		(pts
 			(xy 40.64 83.82) (xy 39.37 83.82)
 		)
 		(stroke
@@ -7077,7 +6968,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 31.75) (xy 147.32 31.75)
+			(xy 146.05 31.75) (xy 148.59 31.75)
 		)
 		(stroke
 			(width 0)
@@ -7344,16 +7235,6 @@
 			(type default)
 		)
 		(uuid "d344c579-b05e-420b-a269-461ebd512fd1")
-	)
-	(wire
-		(pts
-			(xy 147.32 31.75) (xy 148.59 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d43fcc3c-f748-41d8-82b0-9921233d9eff")
 	)
 	(wire
 		(pts
@@ -7707,16 +7588,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 118.11) (xy 252.73 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd5e2d01-8d15-453b-920e-b28a4f4c7a19")
-	)
-	(wire
-		(pts
 			(xy 179.07 26.67) (xy 179.07 27.94)
 		)
 		(stroke
@@ -8035,16 +7906,6 @@
 		)
 		(uuid "76211dea-4d98-48bf-b786-7018e5b42e5c")
 	)
-	(label "RS485_A"
-		(at 219.71 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7730d6d5-27bb-4257-a1e4-aaf479cf6b6d")
-	)
 	(label "UARTRX"
 		(at 172.72 66.04 180)
 		(effects
@@ -8114,16 +7975,6 @@
 			(justify right bottom)
 		)
 		(uuid "8c284d7d-7ab3-4b7f-aa5b-0775ca68f094")
-	)
-	(label "RS485_B"
-		(at 252.73 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8eb2f369-b222-4249-9add-89fb16df43c8")
 	)
 	(label "EncA_1"
 		(at 125.73 71.12 0)
@@ -9626,143 +9477,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Nidec_CAS-120A1")
-		(at 232.41 118.11 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "298adb50-39b9-454a-bc7c-9f375d387297")
-		(property "Reference" "SW5"
-			(at 232.41 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Terminal"
-			(at 232.41 112.776 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 232.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-			(at 232.41 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 232.41 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "42f2adb2-e3b9-49e0-9f8d-7f8b76115e39")
-		)
-		(pin "3"
-			(uuid "bdef8d8c-080a-403c-a754-a74d523337be")
-		)
-		(pin "2"
-			(uuid "3ad5b425-85de-4493-935d-b1dad9766d5b")
-		)
-		(instances
-			(project "SensorBoard_ver2.0"
-				(path "/48207ddc-a67e-4dc5-8222-aef69eda58f7"
-					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 241.3 118.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2e043efe-50a6-42df-a7ee-604907392cd6")
-		(property "Reference" "R6"
-			(at 241.3 114.554 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120Ω"
-			(at 241.3 116.078 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 241.3 119.888 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 241.3 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8409a085-8505-49eb-b571-fc4a78225798")
-		)
-		(pin "2"
-			(uuid "7ee5c691-217f-4162-ad8a-9db4fa5661cc")
-		)
-		(instances
-			(project "SensorBoard_ver2.0"
-				(path "/48207ddc-a67e-4dc5-8222-aef69eda58f7"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 195.58 135.89 0)
 		(unit 1)
@@ -10938,76 +10652,6 @@
 			(project "SensorBoard_ver2.0"
 				(path "/48207ddc-a67e-4dc5-8222-aef69eda58f7"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 203.2 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4cbac85c-2d40-4af6-92c9-15cd3116193f")
-		(property "Reference" "FB1"
-			(at 207.01 30.4291 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 207.01 32.9691 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 201.422 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 203.2 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e6caac9-e291-452a-a3ee-4699d4ff2cb8")
-		)
-		(pin "2"
-			(uuid "86754463-a652-4351-8619-cb252f710ee4")
-		)
-		(instances
-			(project "SensorBoard_ver2.0"
-				(path "/48207ddc-a67e-4dc5-8222-aef69eda58f7"
-					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -13724,7 +13368,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 147.32 30.48 0)
+		(at 148.59 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13732,7 +13376,7 @@
 		(dnp no)
 		(uuid "967208d0-2934-4b5d-98ae-9a23ece5ea3a")
 		(property "Reference" "#PWR042"
-			(at 147.32 34.29 0)
+			(at 148.59 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13741,7 +13385,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 147.32 26.67 0)
+			(at 148.59 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13749,7 +13393,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 30.48 0)
+			(at 148.59 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13758,7 +13402,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 30.48 0)
+			(at 148.59 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13767,7 +13411,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 147.32 30.48 0)
+			(at 148.59 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13782,71 +13426,6 @@
 			(project "SensorBoard_ver2.0"
 				(path "/48207ddc-a67e-4dc5-8222-aef69eda58f7"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 151.13 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "978bb96d-69f8-47c3-b16d-0abe7506f541")
-		(property "Reference" "#PWR044"
-			(at 151.13 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 151.13 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 151.13 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b023159b-75bf-4fdb-a505-0b444a8e232b")
-		)
-		(instances
-			(project "SensorBoard_ver2.0"
-				(path "/48207ddc-a67e-4dc5-8222-aef69eda58f7"
-					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -16026,6 +15605,73 @@
 			(project "SensorBoard_ver2.0"
 				(path "/48207ddc-a67e-4dc5-8222-aef69eda58f7"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 166.37 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e48c38ba-6361-4419-a3ad-aa03df296729")
+		(property "Reference" "R6"
+			(at 162.814 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120Ω"
+			(at 164.338 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 168.148 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e3e4946-16f2-4c06-a1ca-987268641c9f")
+		)
+		(pin "2"
+			(uuid "f47e24ad-142c-402b-a4a1-a330069dfb72")
+		)
+		(instances
+			(project "SensorBoard_ver2.0"
+				(path "/48207ddc-a67e-4dc5-8222-aef69eda58f7"
+					(reference "R6")
 					(unit 1)
 				)
 			)
