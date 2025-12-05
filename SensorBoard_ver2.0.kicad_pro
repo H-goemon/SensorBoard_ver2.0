@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.95,
-          "width": 0.8
+          "height": 1.6,
+          "width": 1.05
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,15 +60,7 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_issues|115250000|119650000|dd2a82a1-f814-4529-82c1-4210029d0d24|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|87248489|117745469|6b13f496-62bd-409d-9608-69f618928994|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|114250650|130744502|25669007-841e-436e-94da-c44966b288fe|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|114250000|131500000|25669007-841e-436e-94da-c44966b288fe|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -526,7 +518,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "C:/Users/u10be/Documents/07KiCAD_GBR/SensorBoard_ver1/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

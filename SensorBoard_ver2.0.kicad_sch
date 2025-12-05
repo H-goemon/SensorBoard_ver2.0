@@ -9,171 +9,6 @@
 		(date "2025-10-19")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Socket"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
 				(offset 1.016)
@@ -4681,18 +4516,6 @@
 		(uuid 615fc2f6-b421-49cd-a352-356acfa48a07)
 	)
 	(rectangle
-		(start 83.82 101.6)
-		(end 95.758 119.634)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 64fdb751-eb92-4db2-9910-71cf228e4892)
-	)
-	(rectangle
 		(start 199.39 46.99)
 		(end 226.06 72.39)
 		(stroke
@@ -5030,20 +4853,6 @@
 			)
 		)
 		(uuid "c772742b-dfe0-43e9-86d6-2b88dec0ad83")
-	)
-	(text "TypeC"
-		(exclude_from_sim no)
-		(at 83.312 100.33 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-				(thickness 0.381)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "dd9b5ce1-948a-43b2-aa40-7a5c13333f70")
 	)
 	(text "Decoupling Capacitor"
 		(exclude_from_sim no)
@@ -6238,16 +6047,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 113.03) (xy 91.44 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f8801c9-0b91-4329-859e-3fa8958c1889")
-	)
-	(wire
-		(pts
 			(xy 189.23 142.24) (xy 196.85 142.24)
 		)
 		(stroke
@@ -6908,16 +6707,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 109.22) (xy 92.71 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2803154-3343-4467-bb0a-fc74e7e976a4")
-	)
-	(wire
-		(pts
 			(xy 163.83 78.74) (xy 172.72 78.74)
 		)
 		(stroke
@@ -7318,16 +7107,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 114.3) (xy 92.71 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db7b19ec-0e21-4be9-aa54-07dcd584b72d")
-	)
-	(wire
-		(pts
 			(xy 143.51 115.57) (xy 143.51 116.84)
 		)
 		(stroke
@@ -7505,16 +7284,6 @@
 			(type default)
 		)
 		(uuid "f4eb62b4-9690-4036-8335-09028304f10b")
-	)
-	(wire
-		(pts
-			(xy 92.71 110.49) (xy 91.44 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4f307e7-1e75-47a0-9814-58dbe5de499a")
 	)
 	(wire
 		(pts
@@ -9252,70 +9021,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 156.21 167.64 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "203a29eb-2d1b-4b04-83da-db79d4b93ca2")
-		(property "Reference" "H5"
-			(at 158.75 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Hamada"
-			(at 158.75 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MySilcscreen:Hamada"
-			(at 156.21 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 156.21 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/48207ddc-a67e-4dc5-8222-aef69eda58f7"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCU_ST_STM32F3:STM32F303K8Tx")
 		(at 148.59 60.96 0)
 		(unit 1)
@@ -10395,71 +10100,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 92.71 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "44250e2b-b5a4-4914-8849-c65b23a3a36b")
-		(property "Reference" "#PWR037"
-			(at 92.71 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 92.71 105.664 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 92.71 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37e0da07-5ce0-4813-b6e4-a38923d7bf62")
-		)
-		(instances
-			(project "SensorBoard_ver2.0"
-				(path "/48207ddc-a67e-4dc5-8222-aef69eda58f7"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 195.58 62.23 0)
 		(unit 1)
@@ -10719,71 +10359,6 @@
 			(project "SensorBoard_ver2.0"
 				(path "/48207ddc-a67e-4dc5-8222-aef69eda58f7"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 92.71 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e0934ea-b690-47ac-895e-042c3e8c83ed")
-		(property "Reference" "#PWR038"
-			(at 92.71 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.71 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fffe10e1-e34d-46ee-91af-6229572ad5d3")
-		)
-		(instances
-			(project "SensorBoard_ver2.0"
-				(path "/48207ddc-a67e-4dc5-8222-aef69eda58f7"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -12210,74 +11785,6 @@
 			(project "SensorBoard_ver2.0"
 				(path "/48207ddc-a67e-4dc5-8222-aef69eda58f7"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 86.36 110.49 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "78c4837f-9293-41c3-b4f5-c0ed1ef78694")
-		(property "Reference" "J10"
-			(at 86.995 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C"
-			(at 86.995 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MyUSB_C:PowerOnlyUSB_C"
-			(at 86.36 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 86.36 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02c8d488-f9ca-4470-bfd4-c73539791585")
-		)
-		(pin "2"
-			(uuid "0ba54eba-de83-4517-8d6d-befd7cc9fdee")
-		)
-		(instances
-			(project "SensorBoard_ver2.0"
-				(path "/48207ddc-a67e-4dc5-8222-aef69eda58f7"
-					(reference "J10")
 					(unit 1)
 				)
 			)
